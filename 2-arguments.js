@@ -1,5 +1,5 @@
 if(process.argv[2]) {
-console.log('found')
+console.log('Arguments found')
 } else {
 	console.log('No argument')
 }
