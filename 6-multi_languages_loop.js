@@ -1,5 +1,5 @@
-var lines = ['C is fun', 'Python is cool', 'JavaScript is amazing']
+let lines = ['C is fun', 'Python is cool', 'JavaScript is amazing']
 
-lines.map(line => {
-    console.log(line)
-})
+for ( let i = 0; i < lines.length; i++) {
+    console.log(lines[i])
+}
