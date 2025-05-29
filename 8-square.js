@@ -1,16 +1,12 @@
-if(process.argv[2] || process.argv[3]) {
-    let x = parseInt(process.argv[2])
-    let y = parseInt(process.argv[3])
+if(process.argv[2]) {
+    let xy = parseInt(process.argv[2])
 
-    if (isNaN(x) && isNaN(y)) {
+    if (isNaN(xy) || (xy <= 0)) {
         console.log('Missing size')
     } else {
-        for (let i = 0; i < x; i++) {
+        for (let i = 0; i < xy; i++) {
             let test = ''
-            if (!y) {
-                y = x
-            } 
-            for (let k = 0; k < y; k++) {
+            for (let k = 0; k < xy; k++) {
                 test += 'x'
             }
             console.log(test)
