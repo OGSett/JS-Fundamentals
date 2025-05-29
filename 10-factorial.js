@@ -11,4 +11,6 @@ if (process.argv[2]) {
     if(!isNaN(number)) {
         console.log(fact(number))
     }
+} else {
+    console.log(1)
 }
