@@ -7,7 +7,7 @@ if(process.argv[2]) {
         for (let i = 0; i < xy; i++) {
             let test = ''
             for (let k = 0; k < xy; k++) {
-                test += 'x'
+                test += 'X'
             }
             console.log(test)
         } 
